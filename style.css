@@ -1,0 +1,73 @@
+/* Fondo general */
+body {
+    background-color: #141b29;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #0c0f17;
+    padding: 10px;
+}
+
+.navbar a {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #1f80e0;
+}
+
+/* Encabezado de las secciones */
+h1, h2, h3 {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Estilo de las tarjetas de películas */
+.item {
+    background-color: #1e2638;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+/* Imágenes de las películas */
+.item img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Título de las películas */
+.item .title {
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Botones de reproducción */
+.play-button {
+    background-color: #1f80e0;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.play-button:hover {
+    background-color: #00a1ff;
+}
